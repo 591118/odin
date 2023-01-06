@@ -1,5 +1,22 @@
-.flex-container{
-    background-color: azure;
-    border: 200px;
-    border-color: brown;
+#flex-container{
+    display: flex;
+}
+
+.first{
+    background-color: aqua;
+    text-decoration-color: blue;
+    font-size: 50px;
+    margin: 50px;
+}
+
+.a{
+background-color: tan;
+}
+
+.t{
+    background-color: red;
+}
+
+.four{
+    background-color:saddlebrown;
 }
