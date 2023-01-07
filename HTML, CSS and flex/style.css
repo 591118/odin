@@ -1,22 +1,33 @@
-#flex-container{
+.flex-containeren{
+    display: flex;
+    font-size: 50px;
+    color: purple;
+}
+
+.flex-containerto{
+    background-color: hsl(215, 28%, 17%);
+    font-size: 48px;
+    
     display: flex;
 }
 
-.first{
-    background-color: aqua;
-    text-decoration-color: blue;
-    font-size: 50px;
-    margin: 50px;
+.flex-containertre{
+    background-color: powderblue;
+    display: flex;
 }
 
-.a{
-background-color: tan;
+.flex-containerfire{
+    background-color: blue;
+    display: flex;
 }
 
-.t{
-    background-color: red;
+.button{
+background-color: green;
+color: white;
 }
 
-.four{
-    background-color:saddlebrown;
+.h1{
+    font-style: italic;
+    font-size: 36px;
+    color: red;
 }
