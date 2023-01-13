@@ -1,0 +1,35 @@
+.flex-containeren{
+    display: flex;
+    font-size: 20px;
+    color: purple;
+    columns: 40px 3;
+    margin: 30px;
+}
+
+.flex-containerto{
+    background-color: purple;
+    font-size: 48px;
+    margin:200px;
+    display: flex;
+}
+
+.flex-containertre{
+    background-color: powderblue;
+    margin:200px;
+    display: flex;
+}
+
+.flex-containerfire{  
+    display: flex;
+}
+
+.button{
+background-color: green;
+color: white;
+}
+
+.h1{
+    font-style: italic;
+    font-size: 36px;
+    color: red;
+}
