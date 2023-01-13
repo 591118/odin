@@ -6,15 +6,31 @@
     margin: 30px;
 }
 
+.flex-containeren .one {
+    flex: 1 1 0%;
+}
+
+.flex-containeren .two {
+    flex: 2 2 0%;
+}
+
+.flex-containeren .tre {
+    flex: 1 1 0%;
+}
+
 .flex-containerto{
-    background-color: purple;
+    background-color: darkblue;
     font-size: 48px;
-    margin:200px;
+    margin:px;
     display: flex;
 }
 
+.flex-containerto .en{
+    flex: 1 1 1%;
+}
+
 .flex-containertre{
-    background-color: powderblue;
+    background-color: green;
     margin:200px;
     display: flex;
 }
