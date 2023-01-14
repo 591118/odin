@@ -19,20 +19,16 @@
 }
 
 .flex-containerto{
-    background-color: darkblue;
-    columns: 100px 2;
-    font-size: 48px;
-    margin:px;
+    height: 300px;
+    align-items: center;
     display: flex;
 }
 
 .flex-containerto .en{
-    flex: 1 1 1%;
+    flex: 1 1 0%;
+
 }
 
-.flex-containerto .to{
-    flex: 1 1 1%;
-}
 
 .flex-containertre{
     margin: 60px;
