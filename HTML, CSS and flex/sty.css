@@ -20,6 +20,7 @@
 
 .flex-containerto{
     background-color: darkblue;
+    columns: 100px 2;
     font-size: 48px;
     margin:px;
     display: flex;
@@ -29,10 +30,24 @@
     flex: 1 1 1%;
 }
 
+.flex-containerto .to{
+    flex: 1 1 1%;
+}
+
 .flex-containertre{
+    margin: 60px;
     background-color: green;
-    margin:200px;
     display: flex;
+}
+
+.flex-containertre .e{
+    background-color: blueviolet;
+display: flex;
+}
+
+.flex-containertre .thor{
+    background-color: blueviolet;
+display: flex;
 }
 
 .flex-containerfire{  
