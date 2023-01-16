@@ -1,4 +1,4 @@
-function stein(i){
-    const valg = document.getElementsById("i");
+function stein(){
+    const valg = document.getElementsById("inn");
     console.log(valg);
 }
