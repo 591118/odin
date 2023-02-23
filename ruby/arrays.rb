@@ -1,10 +1,16 @@
 num_array = [1, 2, 3, 4, 5]
 str_array = ["This", "is", "a", "small", "array"]
 
-Array.new               #=> []
+x = Array.new               #=> []
 Array.new(3)            #=> [nil, nil, nil]
 Array.new(3, 7)         #=> [7, 7, 7]
 Array.new(3, true)      #=> [true, true, true]
+
+
+
+print (x.empty?)
+x.push(2, 5 ,8 )
+print (x) 
 
 str_array[0]            #=> "This"
 str_array[1]            #=> "is"
