@@ -1,5 +1,4 @@
 require_relative 'Kalkis'
-require_relative 'spec_helper'
 require 'rspec'
 
 RSpec.describe Kalkis do
