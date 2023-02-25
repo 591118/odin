@@ -1,10 +1,11 @@
-#require "./lib/Kalkis"
+require_relative 'Kalkis'
+require_relative 'spec_helper'
 require 'rspec'
 
 RSpec.describe Kalkis do
 
   before(:each) do
-    @calc = kalkis.new
+    @kalkis = kalkis.new
   end
 
   describe "#add" do
