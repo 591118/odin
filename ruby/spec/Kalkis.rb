@@ -1,4 +1,5 @@
 class Kalkis
+   
     def add(a, b)
       a + b
     end
@@ -16,4 +17,3 @@ class Kalkis
       a / b
     end
   end
-  
