@@ -1,4 +1,4 @@
-class Calculator
+class Kalkis
     def add(a, b)
       a + b
     end
